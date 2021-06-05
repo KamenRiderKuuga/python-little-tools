@@ -29,7 +29,11 @@ adb下载地址：https://developer.android.com/studio/releases/platform-tools
 
 安装时使用*pip install mitmproxy*即可，使用时，将脚本文件放在其安装目录下，使用*mitmdump -q -s 处理mitmproxy抓包信息.py*开始抓包，这里的*-q*表示只显示脚本中输入到console的内容，过滤掉其它所有的显示内容，*-s*用来指定要执行的脚本，这里的*mitmdump*也可以换做*mitmweb*，可以提供更容易观察抓包内容的可视化界面，但是长期运行会占用大量内存，抓取手机端*https*数据包时需要在手机端安装证书以及设置代理地址，过程很简单，网上有比较详细的教程
 
+#### 6.批量转换指定文件夹内的Excel，Word，PowerPoint文件为PDF格式并导出
 
+指定源文件夹，目标文件夹，即可把源文件夹内符合格式的文件全部转换成`PDF`文件并导出到输出文件夹
+
+使用时要求电脑安装了Office相应的软件，并且只能在Windows环境使用，因为原理是调用Windows的COM接口
 
 ### License 许可证
 
