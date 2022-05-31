@@ -35,6 +35,10 @@ adb下载地址：https://developer.android.com/studio/releases/platform-tools
 
 使用时要求电脑安装了Office相应的软件，并且只能在Windows环境使用，因为原理是调用Windows的COM接口
 
+#### 7.合并文件夹中的JSON文件，并粘贴到剪切板
+
+将一个只含有JSON文件的文件夹中的所有JSON文件合并为一个并粘贴到剪切板，代码中使用了新的合并`dict`运算符，需要Python 3.9及以上版本
+
 ### License 许可证
 
 python-little-tools is licensed under [MIT](https://github.com/xukimseven/HardCandy-Jekyll/blob/master/LICENSE).
