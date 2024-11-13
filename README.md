@@ -39,6 +39,10 @@ adb下载地址：https://developer.android.com/studio/releases/platform-tools
 
 将一个只含有JSON文件的文件夹中的所有JSON文件合并为一个并粘贴到剪切板，代码中使用了新的合并`dict`运算符，需要Python 3.9及以上版本
 
+#### 8.使用Python实现的简单Sticky Note
+
+一个简单的Windows桌面便签，始终置顶，使用`tkinter`库实现，可以编辑与读取便签，保存的文件为`note.txt`，放置于脚本运行目录
+
 ### License 许可证
 
 python-little-tools is licensed under [MIT](https://github.com/xukimseven/HardCandy-Jekyll/blob/master/LICENSE).
